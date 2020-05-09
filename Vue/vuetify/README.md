@@ -1,4 +1,5 @@
-# vuetify-mastery
+# vuetify-cheat sheet
+In this project I try to use vuetify and get familar with vuetify, so I created login page,sign up page,data table,footer by just vuetify.
 
 ## Project setup
 ```
