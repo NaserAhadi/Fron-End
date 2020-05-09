@@ -1,4 +1,6 @@
-# vue-crash-course
+# vue-todo list
+In this project I created a todo list that have add, remove and update features with out state management and just by
+using props and $emit method.
 
 ## Project setup
 ```
