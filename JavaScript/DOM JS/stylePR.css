@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvotica, sans-serif;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+button:hover {
+    background-color: red;
+}
+
+@media (min-width: 930px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    #header-title {
+        padding: 30px 5px;
+        flex-basis: 40%;
+    }
+
+    #search-item {
+        flex-basis: 30%;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #header-title {
+        flex-basis: 30%;
+    }
+
+    #search-item {
+        flex-basis: 30%;
+    }
+}
+
+.header {
+    display: flex;
+    background-color: #1f7500;
+    color: #fff;
+    height: 4.5em;
+    line-height: 2em;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#filter {
+    padding: 10px;
+    margin: 8px;
+    font-size: 20px
+}
+
+.wrapper {
+    border: 1px #ccc solid;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.wrapper .head-line {
+    font-size: 2em
+}
+
+.add-item {
+    margin: 30px
+}
+
+.add-item input[type='text'] {
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 1.2em
+}
+
+.add-item input[type='submit'] {
+    margin: 8px 0 8px 5px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 1.3em
+}
+
+.add-item input[type='submit']:hover {
+    background-color: red;
+}
+
+.add-item input[type='submit']:active {
+    transform: translateY(2px);
+}
+
+.items {
+    margin: 30px;
+}
+
+.items h2 {
+    margin: 10px 0;
+}
+
+.items li {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+    border: 1px #ccc solid;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+
+.btn {
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.del-btn {
+    background-color: red;
+    color: #fff;
+    width: 25px;
+    height: 30px;
+    font-size: 20px;
+    flex:0 0 20px;
+}
+/*
+Note :
+flex : flex-grow flex-shrink flex-basis;
+default value for flex-grow is 0 and means not grow.
+default value for flex-shrink is 1 and means shrink item. flex-shrink:0 means not shrink
+*/
+
+.del-btn:hover {
+    background-color: #000
+}
+
+.edit{
+    padding:8px;
+    height: 30px;
+    font-size:16px;
+    flex:0 0 30px;
+    text-align:center;
+    margin-right:5px;
+}
+
+.pItem{
+    flex:8 0;
+}
+/*.edit2{*/
+/*    padding:8px;*/
+/*    font-size:16px;*/
+/*    margin-right:5px;*/
+/*}*/
+/*#select{*/
+/*    padding:10px;*/
+/*    border:1px solid #ccc;*/
+/*    margin:10px;*/
+/*    background: none;*/
+/*    font-size:1.2em*/
+/*}*/
