@@ -1,0 +1,246 @@
+/*
+when box-sizing is border-box padding and border include into the size of width and heigth.
+in this way they are not adding to size of width and heigth
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border-radius:5px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+body{
+    background-color:#ccc;
+    width: 80%;
+    margin: 0 auto
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red
+}
+
+.clr{
+    clear:both;
+}
+
+.button{
+    background-color: #333;
+    color: #fafafa;
+    border:none;
+    padding:10px 20px;
+    margin:5px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: red;
+    color: #fafafa;
+}
+
+.box-1{
+    background-color:#111;
+    color:#fcfcfc;
+    margin:40px auto;
+    border:8px green double;
+    padding-top:18px;
+    padding-right:20px;
+    padding-bottom:25px;
+    padding-left:30px;
+
+    font-family:Arial,sans-serif;
+}
+
+.box-1 h1{
+    padding-bottom:20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    word-spacing:12px;
+    font-style:italic;
+}
+
+
+.box-2{
+    border:5px #555 dotted;
+    margin:30px auto;
+    padding-top:18px;
+    padding-right:20px;
+    padding-bottom:25px;
+    padding-left:30px;
+    font-family:Helvetica,sans-serif;
+    background-color: #a9de54;
+}
+
+.box-2 h1{
+    padding-bottom:15px;
+}
+
+.box-3 {
+    border:5px blue solid;
+    margin:30px auto;
+    padding-left: 30px;
+    padding-top:15px;
+}
+
+.box-3 h1{
+    text-align: center;
+}
+
+.box-3 ul{
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.box-3 li{
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 2px #333 dotted;
+  /*
+    list-style-type: none;
+    list-style-image: url(./check-mark.jpg)
+    */
+    list-style:none url(./images/check-mark.jpg);
+}
+
+form{
+    margin:20px auto;
+    padding:20px 0;
+    border:4px #444 solid;
+    font-size:18px;
+}
+
+.form-group{
+    display:grid;
+    margin:10px 25px;
+}
+
+.form-group input[type='text']{
+    padding: 8px
+}
+
+.form-group textarea{
+    height: 15em;
+    padding: 8px;
+}
+
+.form-group input[type='submit']{
+    width: 80px;
+}
+
+.h3box{
+    float: left;
+    width: 33%;
+    border:2px green solid;
+    padding:10px;
+    margin:0 2px;
+}
+
+.h3box h3{
+    text-align: center
+}
+
+#main-block{
+    float: left;
+    width:66.3%;
+    padding:10px;
+    margin-top:5px;
+    margin-right:2px;
+    background-color: darkgreen;
+    color: #fff
+}
+
+#main-block h3{
+    text-align:center;
+}
+
+#sidebar{
+    float: right;
+    width: 33.3%;
+    padding: 10px;
+    margin-top:5px;
+    background-color: #333;
+    color:#fff;
+}
+
+.p-box {
+    height: 600px;
+    border:2px #fc413a solid;
+    margin-top:20px;
+    position:relative;
+    background-image:url(./images/images3.jpeg);
+    background-size:cover;
+}
+
+
+.p-box .hi{
+    position:absolute;
+    top:30px;
+    left:30px;
+
+}
+
+
+.p-box .gbye{
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+
+.p-box .center{
+    position:absolute;
+    right:50%;
+    top:50%;
+}
+
+.p-box .tright{
+    position:absolute;
+    top:30px;
+    right:30px;
+}
+
+.p-box .bleft{
+    position:absolute;
+    bottom:30px;
+    left:30px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+    left:10px;
+}
+
+.mylist{
+    list-style: none;
+    margin: 20px;
+    text-align: center
+}
+
+.mylist li{
+    padding:10px;
+}
+
+.mylist li:first-child{
+    background: red;
+}
+
+.mylist li:last-child{
+    background:blue;
+}
+
+.mylist li:nth-child(5){
+    background:green;
+}
+
+.mylist li:nth-child(even){
+    background:grey;
+}
