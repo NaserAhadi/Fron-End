@@ -58,6 +58,11 @@ function addItem(e) {
     setTimeout(clearInput,3000);
 }
 
+// clear input
+function clearInput(){
+    inputText.value = '';
+}
+
 // remove item
 function removeItem(e) {
     if (e.target.classList.contains('del-btn')) {
@@ -107,9 +112,4 @@ function editItem(e){
             e.target.parentElement.firstChild.textContent = newText;
         }
     }
-}
-
-// clear input
-function clearInput(){
-    inputText.value = '';
 }
