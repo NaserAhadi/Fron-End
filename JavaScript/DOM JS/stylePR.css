@@ -162,15 +162,3 @@ default value for flex-shrink is 1 and means shrink item. flex-shrink:0 means no
 .pItem{
     flex:8 0;
 }
-/*.edit2{*/
-/*    padding:8px;*/
-/*    font-size:16px;*/
-/*    margin-right:5px;*/
-/*}*/
-/*#select{*/
-/*    padding:10px;*/
-/*    border:1px solid #ccc;*/
-/*    margin:10px;*/
-/*    background: none;*/
-/*    font-size:1.2em*/
-/*}*/
