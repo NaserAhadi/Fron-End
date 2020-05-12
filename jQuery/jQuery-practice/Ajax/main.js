@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // $('#result').load('test.html');
 
-    $('#result').load('test1.html', function (responseTxt, statusTxt, xhr) {
+    $('#result').load('test.html', function (responseTxt, statusTxt, xhr) {
         if (statusTxt === 'success') {
             alert('It went fine');
             console.log('this is responseTxt: ' + responseTxt);
