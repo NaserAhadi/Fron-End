@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Watch in Vue</title>
+</head>
+<body>
+<div id="el">
+    {{counter}}
+    <br>
+    <button @click="counter++">Click</button>
+    <br>
+    <input type="text" v-model="someText">
+    <br>
+    <test-comp color="black"></test-comp>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
